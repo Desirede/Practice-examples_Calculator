@@ -18,7 +18,7 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-        <com.example.desirede.calculator.SingleLineZoomTextView
+        <com.example.desirede.calculator.autosizechangeinoneline
 
             android:id="@+id/place_result"
             android:layout_width="match_parent"
@@ -29,7 +29,7 @@
             android:textColor="#FFFFFF"
             android:textSize="155px" />
 
-        <com.example.desirede.calculator.SingleLineZoomTextView
+        <com.example.desirede.calculator.autosizechangeinoneline
 
             android:id="@+id/place_formula"
             android:layout_width="match_parent"

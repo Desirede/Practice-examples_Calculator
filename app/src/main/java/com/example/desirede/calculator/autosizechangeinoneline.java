@@ -12,20 +12,20 @@ import android.util.TypedValue;
  * Created by Administrator on 2018/1/29 0029.
  */
 
-public class SingleLineZoomTextView extends AppCompatTextView {
+public class autosizechangeinoneline extends AppCompatTextView {
 
     private Paint mPaint;
     private float mTextSize;
 
-    public SingleLineZoomTextView(Context context) {
+    public autosizechangeinoneline(Context context) {
         super(context);
         // TODO Auto-generated constructor stub
     }
-    public SingleLineZoomTextView(Context context, AttributeSet attrs) {
+    public autosizechangeinoneline(Context context, AttributeSet attrs) {
         super(context, attrs);
         // TODO Auto-generated constructor stub
     }
-    public SingleLineZoomTextView(Context context, AttributeSet attrs,
+    public autosizechangeinoneline(Context context, AttributeSet attrs,
                                   int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         // TODO Auto-generated constructor stub
