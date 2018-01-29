@@ -195,16 +195,14 @@
                 android:id="@+id/btn_0"
                 android:layout_weight="1"
                 android:onClick="onClick"
-                android:background="@android:color/darker_gray" />
+                 />
 
-            <TextView
-                android:layout_width="5dp"
-                />
+
 
             <Button
                 android:text="="
                 android:id="@+id/btn_equ"
-                android:layout_weight="599"
+                android:layout_weight="600"
                 android:onClick="onClick"
                 android:background="@android:color/darker_gray" />
         </TableRow>
