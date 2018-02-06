@@ -53,7 +53,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/darker_gray"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="onClick"
                 android:text="C"
                 android:textColor="@android:color/holo_red_dark" />
@@ -63,7 +63,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/darker_gray"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="onClick"
                 android:text="DEL"
                 android:textColor="@android:color/holo_red_dark"
@@ -74,7 +74,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/darker_gray"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="onClick"
                 android:text="dot"
                 android:textColor="@android:color/holo_red_dark" />
@@ -84,10 +84,10 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/darker_gray"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="onClick"
                 android:text="+"
-                />
+                android:textColor="@android:color/holo_red_dark"/>
         </TableRow>
 
         <TableRow android:layout_weight="1">
@@ -97,37 +97,40 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:onClick="onClick"
                 android:text="7"
-                android:background="@android:color/transparent"/>
+                android:textColor="@android:color/background_light" />
 
             <Button
                 android:id="@+id/btn_8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:onClick="onClick"
                 android:text="8"
-                android:background="@android:color/transparent"/>
+                android:textColor="@android:color/background_light" />
 
             <Button
                 android:id="@+id/btn_9"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:onClick="onClick"
                 android:text="9"
-                android:background="@android:color/transparent"/>
+                android:textColor="@android:color/background_light" />
 
             <Button
                 android:id="@+id/btn_sub"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/darker_gray"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="onClick"
                 android:text="-"
-                 />
+                android:textColor="@android:color/holo_red_dark"/>
         </TableRow>
 
         <TableRow android:layout_weight="1">
@@ -137,36 +140,40 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:onClick="onClick"
                 android:text="4"
-                android:background="@android:color/transparent"/>
+                android:textColor="@android:color/background_light" />
 
             <Button
                 android:id="@+id/btn_5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:onClick="onClick"
                 android:text="5"
-                android:background="@android:color/transparent"/>
+                android:textColor="@android:color/background_light" />
 
             <Button
                 android:id="@+id/btn_6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:onClick="onClick"
                 android:text="6"
-                android:background="@android:color/transparent"/>
+                android:textColor="@android:color/background_light" />
 
             <Button
                 android:id="@+id/btn_mul"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/darker_gray"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="onClick"
-                android:text="*" />
+                android:text="*"
+                android:textColor="@android:color/holo_red_dark"/>
         </TableRow>
 
         <TableRow android:layout_weight="1">
@@ -176,27 +183,30 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:onClick="onClick"
                 android:text="1"
-                android:background="@android:color/transparent"/>
+                android:textColor="@android:color/background_light" />
 
             <Button
                 android:id="@+id/btn_2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:onClick="onClick"
                 android:text="2"
-                android:background="@android:color/transparent"/>
+                android:textColor="@android:color/background_light" />
 
             <Button
                 android:id="@+id/btn_3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:onClick="onClick"
                 android:text="3"
-                android:background="@android:color/transparent"/>
+                android:textColor="@android:color/background_light" />
 
             <Button
                 android:id="@+id/btn_div"
@@ -204,9 +214,10 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/darker_gray"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="onClick"
-                android:text="/" />
+                android:text="/"
+                android:textColor="@android:color/holo_red_dark"/>
         </TableRow>
 
         <TableRow android:layout_weight="1">
@@ -215,9 +226,10 @@
                 android:id="@+id/btn_0"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:onClick="onClick"
                 android:text="0"
-                android:background="@android:color/transparent"/>
+                android:textColor="@android:color/background_light" />
 
 
             <Button
